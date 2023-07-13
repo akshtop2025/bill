@@ -15,39 +15,42 @@
     <table>
 
         <tr>
-            <td colspan="2" class="font">BILL</td>
+            <td colspan="3" class="font">BILL</td>
         </tr>
         <tr>
-            <td colspan="2">
+            <td colspan="3">
                 <p>example value in 1 <strong>.</strong> 5 [1] is hours and [5] is minutes</p>
             </td>
         </tr>
 
         <tr>
             <td><label for="Rotary">Rotary</label></td>
-            <td><input type="number" name="" id="rotary" placeholder="Enter time"></td>
+            <td><input type="text" name="" id="rotary" placeholder="Enter time in hours" autofocus></td>
+            <td><input type="text" name="" id="rotaryy" placeholder="Enter time in minutes autofocus"></td>
 
 
         </tr>
         <tr>
-            <td><label for="Thresher">Thresher</label></td>
-            <td><input type="number" name="" id="thresher" placeholder="Enter time"></td>
+            <td><label for=" Thresher">Thresher</label></td>
+            <td><input type="text" name="" id="thresher" placeholder="Enter time in hours"></td>
+            <td><input type="text" name="" id="thresherr" placeholder="Enter time in minutes"></td>
         </tr>
         <tr>
             <td><label for="Kalti">Kalti</label></td>
-            <td><input type="number" name="" id="kalti" placeholder="Enter time"></td>
+            <td><input type="text" name="" id="kalti" placeholder="Enter time in hours"></td>
+            <td><input type="text" name="" id="kaltii" placeholder="Enter time in minutes"></td>
         </tr>
 
 
         <tr>
-            <td colspan="4" class="center">
-                <button onclick="Click()">get bill</button>
+            <td colspan="3" class="center">
+                <button onclick="aksh()">get bill</button>
             </td>
         </tr>
 
 
         <tr>
-            <td colspan="2"><input type="text" name="" id="totelbill" placeholder="your totel bill is "></td>
+            <td colspan="3"><input type="text" name="" id="totelbill" placeholder="your totel bill is "></td>
 
         </tr>
 
@@ -55,7 +58,27 @@
 
     </table>
     <footer>
-        <script src="./asset/js.js"></script>
+        <script src="./asset/js.js">
+
+
+// function Click() {
+//     let rotaryint = parseFloat(document.getElementById("rotary").value);
+//     document.getElementById("rotary").value
+//     let thresher = parseFloat(document.getElementById("thresher").value);
+//     let kaltiint = parseFloat(document.getElementById("kalti").value);
+
+//     let rotarytotel = rotaryint * .1300;
+//     let threshertotel = thresher * 1200;
+//     let kaltitotel = kaltiint * 900;
+
+//     let add = rotarytotel + threshertotel + kaltitotel;
+//     console.log(add);
+
+//     document.getElementById("totelbill").value = add;
+//     alert("Thanks for using!");
+// }
+
+        </script>
     </footer>
 </body>
 
