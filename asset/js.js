@@ -5,8 +5,8 @@ function Click() {
     let kaltiint = document.getElementById("kalti").value
 
     let rotarytotel = rotaryint * 1300
-    let threshertotel = thresher * 1300
-    let kaltitotel = kaltiint * 1300
+    let threshertotel = thresher * 1200
+    let kaltitotel = kaltiint * 900
 
     let add = rotarytotel + threshertotel + kaltitotel
     console.log("add")
