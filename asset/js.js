@@ -9,10 +9,10 @@ function aksh() {
     let kaltiintt = document.getElementById("kaltii").value
 
     // let rotaryint = 60
-    let rotarytotel = rotaryint * 1300
-    let rotarytotell = rotaryintt * 21.6666
-    let threshertotel = thresher * 1200
-    let threshertotell = thresherr * 20
+    let rotarytotel = rotaryint * 1000
+    let rotarytotell = rotaryintt * 16.666
+    let threshertotel = thresher * 1000
+    let threshertotell = thresherr * 16.6666
     let kaltitotel = kaltiint * 900
     let kaltitotell = kaltiintt * 15
 
